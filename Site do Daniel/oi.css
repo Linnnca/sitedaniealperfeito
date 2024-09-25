@@ -1,0 +1,56 @@
+.gif-container {
+  display: flex;
+  flex-direction: column; /* Organize os elementos em uma coluna */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+  justify-content: center; /* Centraliza os elementos verticalmente */
+  margin: 0 auto; /* Centraliza o container */
+}
+
+img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
+  height: auto; /* Mantém a proporção da imagem */
+}
+body {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/585/405/248/raiden-metal-gear-solid-metal-gear-rising-revengeance-video-games-wallpaper-preview.jpg");
+  background-size: cover;
+  background-position: center; /* Centralize the background image */
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fix the background image on scroll */
+}
+
+h1 {
+  text-align: center;
+  margin: 0 auto; /* Center the heading horizontally */
+  color: #ffffff;
+}
+
+/* Style the button */
+button {
+  background-color: #4CAF50; /* Green color */
+  color: white; /* White text */
+  border: none; /* Remove default border */
+  padding: 15px 32px; /* Add some padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Display as a block element */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  margin-top: 20px; /* Add space above the button */
+  background-position: center;
+}
+
+
+
+/* Center the GIF and button container */
+.gif-container {
+  display: flex; /* Use flexbox for easy centering */
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  margin: 0 auto; /* Center the container horizontally within the body */
+}
+
+/* Remove default image spacing below */
+img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally within the container */
+}
